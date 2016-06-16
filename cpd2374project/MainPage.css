@@ -1,0 +1,109 @@
+
+body {
+
+
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    width:800px;
+    height:525px;
+
+}
+
+header h1 {
+margin:0.55em;
+    padding: 0.5em;
+    background: -moz-linear-gradient(top, rgba(243,197,189,1) 0%, rgba(232,108,87,1) 50%, rgba(234,40,3,1) 51%, rgba(255,102,0,1) 75%, rgba(199,34,0,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(243,197,189,1) 0%, rgba(232,108,87,1) 50%, rgba(234,40,3,1) 51%, rgba(255,102,0,1) 75%, rgba(199,34,0,1) 100%);
+}
+
+p {
+    
+    font-weight: bold;
+    color:white;
+    margin-right:20em;
+    
+}
+
+div {
+    background-image: url("loginimg.jpg");
+    height:420px;
+}
+
+label{
+
+    margin-left:2em;
+    font-weight: bold;
+    color:white;
+    margin-bottom: 0; 
+
+
+}
+
+#username{
+
+    margin-top:3em;    
+    width:500px;
+
+
+}
+#password{
+
+    margin-top:1.5em;
+    width:500px;
+
+}
+#captcha{
+
+    margin-left:2.9em;
+    padding-bottom: 0em;
+    margin-bottom:  0em;
+   
+}
+.login{
+       margin-top:1em;
+    margin-left:6.3em;
+    background: -moz-linear-gradient(top, rgba(243,197,189,1) 0%, rgba(232,108,87,1) 50%, rgba(234,40,3,1) 51%, rgba(255,102,0,1) 75%, rgba(199,34,0,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(243,197,189,1) 0%, rgba(232,108,87,1) 50%, rgba(234,40,3,1) 51%, rgba(255,102,0,1) 75%, rgba(199,34,0,1) 100%);
+	font-weight:bold;
+    border-radius: 50px;
+    font-size: 18px;
+    color:white;
+    width:5em;
+    height:2em;
+    border:2px solid white;
+
+}
+#remember{
+    margin-top: 1em;
+    margin-left:8.8em;
+
+}
+input:valid {
+    background-color: #F9F2F2;
+}
+
+figure{
+
+    margin-left: 7.5em;
+    margin-bottom: 0em;
+    
+}
+#forget {
+    margin-left:6em;
+}
+a{
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 120%;
+    color:white;
+}
+#capField{
+    color:white;
+    
+}
+#capField p{
+   
+    
+}

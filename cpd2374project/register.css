@@ -1,0 +1,59 @@
+body{
+  margin: auto;
+  padding: auto;
+}
+#container {
+width:420px;
+height:310px;
+margin: auto;
+
+}
+.error {
+color:red;
+font-size:13px;
+margin-bottom:6px
+}
+form {
+width:345px;
+padding:0 20px 0px;
+background:-webkit-linear-gradient(top, rgba(243,197,189,1) 0%, rgba(234,40,3,1) 27%, rgba(232,108,87,1) 50%, rgba(255,102,0,1) 75%, rgba(199,34,0,1) 100%); 
+background: -moz-linear-gradient(top, rgba(243,197,189,1) 0%, rgba(234,40,3,1) 27%, rgba(232,108,87,1) 50%, rgba(255,102,0,1) 75%, rgba(199,34,0,1) 100%); 
+border:1px solid #F76666;
+box-shadow:0 0 25px;
+font-family:'Marcellus',serif;
+float:left;
+margin-top:10px
+}
+h1 {
+text-align:center;
+font-size:28px
+}
+hr {
+border:0;
+border-bottom:1.5px solid #ccc;
+margin-top:-10px;
+margin-bottom:30px
+}
+label {
+font-size:17px
+}
+input {
+width:100%;
+padding:10px;
+margin:6px 0 20px;
+border:none;
+box-shadow:0 0 5px
+}
+input#submit {
+margin-top:20px;
+font-size:18px;
+background:linear-gradient(#F76666 5%,orange 100%);
+border:1px solid #0F799E;
+color:#fff;
+font-weight:700;
+cursor:pointer;
+text-shadow:0 1px 0 #13506D
+}
+input#submit:hover {
+background:linear-gradient(#36caf0 5%,#22abe9 100%)
+}

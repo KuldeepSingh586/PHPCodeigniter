@@ -1,0 +1,55 @@
+
+body {
+
+
+font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+  width:700px;
+  height:600px;
+
+}
+#container{
+margin-left:7em;
+
+}
+label#fname,label#lname{
+margin-left:4em;    
+  
+}
+label.username{
+margin-left:4em;
+}
+label.pwd{
+margin-left:4em;
+}
+#confirmpassword{
+margin-left:.2em;
+
+
+}
+label#hints{
+margin-left:6em;
+}
+
+
+input{
+margin-top:3em;
+width:200px;
+
+}
+
+.Submit{
+margin-top:1em;
+margin-left:18em;
+background-color:silver;
+border-radius: 10px;
+width:7em;
+height:1.5em;
+
+}
+#capField{
+    
+    margin-left:14em;
+}
